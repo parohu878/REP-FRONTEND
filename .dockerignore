@@ -1,0 +1,23 @@
+# ── Dependències (es reinstal·len dins la imatge) ─────────────────
+node_modules
+npm-debug.log*
+
+# ── Build generat (es crea dins la imatge) ────────────────────────
+dist
+
+# ── Secrets (MAI dins la imatge) ──────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Arxius innecessaris ────────────────────────────────────────────
+.git
+.gitignore
+.vscode
+*.md
+README.md
+
+# ── Arxius de Docker ──────────────────────────────────────────────
+Dockerfile
+Dockerfile.dev
+docker-compose*.yml
