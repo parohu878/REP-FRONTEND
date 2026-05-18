@@ -1,8 +1,8 @@
-# 🛒 E-commerce Front-end
+# E-commerce Front-end
 
 Este es el cliente Front-end para la aplicación de E-commerce. Está desarrollado utilizando las últimas tecnologías web para ofrecer una experiencia rápida, reactiva y moderna.
 
-## 🚀 Tecnologías Principales
+## Tecnologías Principales
 
 - **Framework**: React 19
 - **Build Tool**: Vite
@@ -11,7 +11,7 @@ Este es el cliente Front-end para la aplicación de E-commerce. Está desarrolla
 - **Gráficos**: Chart.js / react-chartjs-2
 - **Pagos**: Integración con Stripe (@stripe/stripe-js)
 
-## 📦 Instalación y Configuración
+## Instalación y Configuración
 
 1. **Clonar el repositorio y acceder a la carpeta:**
    ```bash
@@ -32,14 +32,14 @@ Este es el cliente Front-end para la aplicación de E-commerce. Está desarrolla
    ```
    La aplicación estará disponible por defecto en `http://localhost:5173`.
 
-## 📜 Scripts Disponibles
+## Scripts Disponibles
 
 - `npm run dev`: Inicia el servidor de desarrollo con Hot Module Replacement (HMR).
 - `npm run build`: Compila la aplicación para producción en la carpeta `dist`.
 - `npm run lint`: Ejecuta ESLint para analizar el código y encontrar problemas.
 - `npm run preview`: Sirve la aplicación compilada para previsualizar el build de producción.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 - `/src/components`: Componentes reutilizables de la interfaz.
 - `/src/pages`: Vistas principales de la aplicación (Home, Login, Register, Cart, Checkout, Dashboards).
